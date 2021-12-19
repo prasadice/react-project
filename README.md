@@ -14,4 +14,4 @@
 
 8]In web-payment cmd will start website on localhost:3000 copy the address into browser
 
-9]the website will open  "# react-project" 
+9]the website will open  "# react-project" j
