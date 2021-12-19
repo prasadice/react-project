@@ -1,0 +1,56 @@
+.display-wrapper {
+  max-width: 1280px;
+  margin: auto;
+  background-color: white;
+  width: 90vw;
+  display: flex;
+  border-radius: 10px;
+}
+.App {
+
+  
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.left-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-wrapper svg {
+  width: 40vw;
+  padding: 5vw;
+}
+.right-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5vw;
+}
+.price-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+button {
+  background: #2f3640;
+  border: 0;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+button:hover {
+  transform: scale(1.05);
+}
+@media screen and (max-width: 767px) {
+  .display-wrapper {
+    flex-direction: column;
+  }
+  .left-wrapper svg {
+    width: 100%;
+  }
+}
