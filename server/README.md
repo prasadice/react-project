@@ -1,6 +1,5 @@
-## simple-user-login--react-express-sqlite3
-Exactly what it sounds like. Created so I don't spend half an hour doing this
-at some point in the future.
+## Server
+Used for database
 
 ### usage
 ```
